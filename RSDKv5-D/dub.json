@@ -1,0 +1,8 @@
+{
+	"authors": [ "Jds2ce" ],
+	"copyright": "",
+	"description": "dlang projections for RSDKv5-GameAPI",
+	"license": "proprietary",
+	"name": "rsdkv5-gameapi-d",
+	"targetType": "sourceLibrary"
+}

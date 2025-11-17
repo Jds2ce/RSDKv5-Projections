@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/rsdkv5-gameapi-d
+rsdkv5-gameapi-d.so
+rsdkv5-gameapi-d.dylib
+rsdkv5-gameapi-d.dll
+rsdkv5-gameapi-d.a
+rsdkv5-gameapi-d.lib
+rsdkv5-gameapi-d-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
