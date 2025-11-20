@@ -2689,6 +2689,11 @@ Entity* RSDK_GET_ENTITY_GEN()(uint16 slot)
     return cast(Entity*) RSDK.getEntity(slot);
 }
 
+T* CREATE_ENTITY(T)(int32 data, int32 x, int32 y)
+{
+    return cast(T*) RSDK.createEntity(T.sVars.classID, INT_TO_VOID(data), x, y);
+}
+
 T* CREATE_ENTITY(T)(void* data, int32 x, int32 y)
 {
     return cast(T*) RSDK.createEntity(T.sVars.classID, data, x, y);
